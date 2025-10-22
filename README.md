@@ -220,10 +220,44 @@ Edit CSS variables in `public/css/style.css`:
 ```
 
 ### Content
-Update controller files to modify sample data or connect to a database.
+Update controller files to modify sample data or **connect to a database** (see [DATABASE_GUIDE.md](DATABASE_GUIDE.md)).
 
 ### Styling
 All styles are in `public/css/style.css` - organized by component for easy customization.
+
+## 📚 Documentation & Guides
+
+CyberUI comes with comprehensive documentation to help you get started and customize the application:
+
+### Quick Start Guides
+
+- **[INSTALLATION_RAPIDE.md](INSTALLATION_RAPIDE.md)** - Quick installation guide for the standalone version (no Laravel/Composer required)
+- **[LARAVEL_SETUP.md](LARAVEL_SETUP.md)** - Complete setup guide for the Laravel version
+- **[TEST_GUIDE.md](TEST_GUIDE.md)** - Step-by-step testing guide with checklist
+
+### Configuration & Development
+
+- **[DATABASE_GUIDE.md](DATABASE_GUIDE.md)** 🆕 - **Complete database integration guide**
+  - MySQL, PostgreSQL, and SQLite configuration
+  - Creating migrations for all tables
+  - Building Eloquent models with relationships
+  - Seeding test data
+  - Converting controllers to use database
+  - Best practices and examples
+
+### Troubleshooting
+
+- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Solutions to common issues (PHP extensions, permissions, etc.)
+
+### Quick Reference
+
+| Guide | Purpose | When to Use |
+|-------|---------|-------------|
+| INSTALLATION_RAPIDE.md | Test immediately without setup | First time exploring the template |
+| LARAVEL_SETUP.md | Full Laravel installation | Ready to customize and develop |
+| DATABASE_GUIDE.md | Add dynamic database content | Want to store real data (users, posts, etc.) |
+| TEST_GUIDE.md | Verify everything works | After installation or making changes |
+| TROUBLESHOOTING.md | Fix errors | When you encounter problems |
 
 ## Browser Support
 
